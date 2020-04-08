@@ -569,7 +569,8 @@
             breakpoint: 680,
             settings: {
               slidesToShow: 1,
-              slidesToScroll: 1
+              slidesToScroll: 1,
+              rows: 1
             }
           }
         ]
@@ -584,13 +585,7 @@
         filtered = false;
       });
       $(".view-a").on("click", function() {
-        $(".testimonial-slider").slick("slickUnfilter");
-        $(".testimonial-slider").slick(
-          "slickFilter",
-          $(".category-a")
-            .parent()
-            .parent()
-        );
+        $(".item:not(.category-a)").parent().parent().css("display", "none");
         $(".filter-dropdown .active").removeClass("active");
         $(".view-a").addClass("active");
         $("#filterMenuButton").text("Category A");
