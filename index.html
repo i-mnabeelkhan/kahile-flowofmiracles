@@ -8,7 +8,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -50,8 +49,19 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
+
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+           
             <div class="navbar-nav ml-auto">
+              <div class="dropdown show ">
+                <a class="btn px-0 dropdown-toggle " href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="img/flagUK.gif" alt="" class="img-fluid rounded">
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="#"><img src="img/flagNL.gif" alt="" class="img-fluid rounded"> Dutch </a>
+                </div>
+              </div>
               <a class="nav-item nav-link active" href="index.html"
                 >Home <span class="sr-only">(current)</span></a
               >
@@ -115,12 +125,7 @@
                   birthright: a happy healthy growing soul.
                 </q>
                 <div class="mt-4">
-                  <a
-                    name=""
-                    id=""
-                    class="shadow btn btn-light btn-lg"
-                    href="#"
-                    role="button"
+                  <a class="shadow btn btn-light btn-lg" href="about.html"
                     >Learn More</a
                   >
                 </div>
@@ -210,26 +215,6 @@
                   </p>
                 </a>
               </div>
-
-              <!-- <div
-                class="home-service"
-                id="service-learn-more"
-                data-aos="zoom-in"
-              >
-                <div class="row">
-                  <div class="col-12">
-                    <div class="service-icon"></div>
-                    <a href="services.html">
-                      <h2>
-                        Learn More
-                      </h2>
-                      <p>
-                        Goto my services page.
-                      </p>
-                    </a>
-                  </div>
-                </div>
-              </div> -->
             </div>
           </div>
         </div>
@@ -261,222 +246,231 @@
               <em>from clients</em>
             </h1>
           </div>
-          <div
-            id="testimonialSlider"
-            class="carousel slide"
-            data-ride="carousel"
-            data-aos="zoom-in"
-          >
-            <!-- Carousel indicators -->
-            <ol class="carousel-indicators">
-              <li
-                data-target="#testimonialSlider"
-                data-slide-to="0"
-                class="active"
-              ></li>
-              <li data-target="#testimonialSlider" data-slide-to="1"></li>
-              <li data-target="#testimonialSlider" data-slide-to="2"></li>
-            </ol>
-            <!-- Wrapper for carousel items -->
-            <div class="carousel-inner" id="testimonialInner">
-              <div class="carousel-item active">
-                <div class="row">
-                  <div class="col-md-6 col-lg-4 slider-col testimonial-col">
-                    <a href="testimonials.html"
-                      ><div class="testimonial-wrapper shadow">
-                        <div class="testimonial-quote-icon">
-                          <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        </div>
-                        <div class="img-box person1"></div>
-                        <p class="testimonial">
-                          1 CATEGORY A suscipit justo. Mauris pharetra feugiat
-                          ante id lacinia. Etiam faucibus mauris id tempor
-                          egestas. Duis luctus turpis at accumsan tincidunt.
-                          Phasellus risus risus, volutpat vel tellus ac,
-                          tincidunt fringilla massa. Etiam hendrerit dolor eget
-                          rutrum.
-                        </p>
-                        <p class="overview">
-                          <b>Focus: </b> <span>Weight Loss</span>
-                        </p>
-                        <p class="overview">
-                          <span>Results: </span>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cupiditate vel vitae aliquam exercitationem
-                          harum laudantium, corporis nostrum. Vero rerum magni
-                          aliquid, quisquam quod quae placeat. Voluptatum ipsum
-                          quae qui animi!
-                        </p>
-                      </div></a
-                    >
+          <div class="" data-aos="zoom-in">
+            <a
+              id="filterMenuButton"
+              class="shadow btn btn-secondary px-4 py-2"
+              href="testimonials.html"
+            >
+              <i class="fas fa-eye"></i> View All</a
+            >
+
+            <div
+              id="testimonialSlider"
+              class="carousel slide pt-3"
+              data-ride="carousel"
+            >
+              <!-- Carousel indicators -->
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#testimonialSlider"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li data-target="#testimonialSlider" data-slide-to="1"></li>
+                <li data-target="#testimonialSlider" data-slide-to="2"></li>
+              </ol>
+              <!-- Wrapper for carousel items -->
+              <div class="carousel-inner" id="testimonialInner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 slider-col testimonial-col">
+                      <a href="testimonials.html"
+                        ><div class="testimonial-wrapper shadow">
+                          <div class="testimonial-quote-icon">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                          </div>
+                          <div class="img-box person1"></div>
+                          <p class="testimonial">
+                            1 CATEGORY A suscipit justo. Mauris pharetra feugiat
+                            ante id lacinia. Etiam faucibus mauris id tempor
+                            egestas. Duis luctus turpis at accumsan tincidunt.
+                            Phasellus risus risus, volutpat vel tellus ac,
+                            tincidunt fringilla massa. Etiam hendrerit dolor
+                            eget rutrum.
+                          </p>
+                          <p class="overview">
+                            <b>Focus: </b> <span>Weight Loss</span>
+                          </p>
+                          <p class="overview">
+                            <span>Results: </span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Cupiditate vel vitae aliquam exercitationem
+                            harum laudantium, corporis nostrum. Vero rerum magni
+                            aliquid, quisquam quod quae placeat. Voluptatum
+                            ipsum quae qui animi!
+                          </p>
+                        </div></a
+                      >
+                    </div>
+                    <div class="col-md-6 col-lg-4 slider-col testimonial-col">
+                      <a href="testimonials.html"
+                        ><div class="testimonial-wrapper shadow">
+                          <div class="testimonial-quote-icon">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                          </div>
+                          <div class="img-box person2"></div>
+                          <p class="testimonial">
+                            2 CATEGORY A suscipit justo. Mauris pharetra feugiat
+                            ante id lacinia. Etiam faucibus mauris id tempor
+                            egestas. Duis luctus turpis at accumsan tincidunt.
+                            Phasellus risus risus, volutpat vel tellus ac,
+                            tincidunt fringilla massa. Etiam hendrerit dolor
+                            eget rutrum.
+                          </p>
+                          <p class="overview">
+                            <b>Focus: </b> <span>Weight Loss</span>
+                          </p>
+                          <p class="overview">
+                            <span>Results: </span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Cupiditate vel vitae aliquam exercitationem
+                            harum laudantium, corporis nostrum. Vero rerum magni
+                            aliquid, quisquam quod quae placeat. Voluptatum
+                            ipsum quae qui animi!
+                          </p>
+                        </div></a
+                      >
+                    </div>
+                    <div class="col-md-6 col-lg-4 slider-col testimonial-col">
+                      <a href="testimonials.html"
+                        ><div class="testimonial-wrapper shadow">
+                          <div class="testimonial-quote-icon">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                          </div>
+                          <div class="img-box person3"></div>
+                          <p class="testimonial">
+                            3 CATEGORY A suscipit justo. Mauris pharetra feugiat
+                            ante id lacinia. Etiam faucibus mauris id tempor
+                            egestas. Duis luctus turpis at accumsan tincidunt.
+                            Phasellus risus risus, volutpat vel tellus ac,
+                            tincidunt fringilla massa. Etiam hendrerit dolor
+                            eget rutrum.
+                          </p>
+                          <p class="overview">
+                            <b>Focus: </b> <span>Weight Loss</span>
+                          </p>
+                          <p class="overview">
+                            <span>Results: </span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Cupiditate vel vitae aliquam exercitationem
+                            harum laudantium, corporis nostrum. Vero rerum magni
+                            aliquid, quisquam quod quae placeat. Voluptatum
+                            ipsum quae qui animi!
+                          </p>
+                        </div></a
+                      >
+                    </div>
                   </div>
-                  <div class="col-md-6 col-lg-4 slider-col testimonial-col">
-                    <a href="testimonials.html"
-                      ><div class="testimonial-wrapper shadow">
-                        <div class="testimonial-quote-icon">
-                          <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        </div>
-                        <div class="img-box person2"></div>
-                        <p class="testimonial">
-                          2 CATEGORY A suscipit justo. Mauris pharetra feugiat
-                          ante id lacinia. Etiam faucibus mauris id tempor
-                          egestas. Duis luctus turpis at accumsan tincidunt.
-                          Phasellus risus risus, volutpat vel tellus ac,
-                          tincidunt fringilla massa. Etiam hendrerit dolor eget
-                          rutrum.
-                        </p>
-                        <p class="overview">
-                          <b>Focus: </b> <span>Weight Loss</span>
-                        </p>
-                        <p class="overview">
-                          <span>Results: </span>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cupiditate vel vitae aliquam exercitationem
-                          harum laudantium, corporis nostrum. Vero rerum magni
-                          aliquid, quisquam quod quae placeat. Voluptatum ipsum
-                          quae qui animi!
-                        </p>
-                      </div></a
-                    >
-                  </div>
-                  <div class="col-md-6 col-lg-4 slider-col testimonial-col">
-                    <a href="testimonials.html"
-                      ><div class="testimonial-wrapper shadow">
-                        <div class="testimonial-quote-icon">
-                          <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        </div>
-                        <div class="img-box person3"></div>
-                        <p class="testimonial">
-                          3 CATEGORY A suscipit justo. Mauris pharetra feugiat
-                          ante id lacinia. Etiam faucibus mauris id tempor
-                          egestas. Duis luctus turpis at accumsan tincidunt.
-                          Phasellus risus risus, volutpat vel tellus ac,
-                          tincidunt fringilla massa. Etiam hendrerit dolor eget
-                          rutrum.
-                        </p>
-                        <p class="overview">
-                          <b>Focus: </b> <span>Weight Loss</span>
-                        </p>
-                        <p class="overview">
-                          <span>Results: </span>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cupiditate vel vitae aliquam exercitationem
-                          harum laudantium, corporis nostrum. Vero rerum magni
-                          aliquid, quisquam quod quae placeat. Voluptatum ipsum
-                          quae qui animi!
-                        </p>
-                      </div></a
-                    >
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6 col-lg-4 slider-col testimonial-col">
+                      <a href="testimonials.html"
+                        ><div class="testimonial-wrapper shadow">
+                          <div class="testimonial-quote-icon">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                          </div>
+                          <div class="img-box person1"></div>
+                          <p class="testimonial">
+                            4 CATEGORY A suscipit justo. Mauris pharetra feugiat
+                            ante id lacinia. Etiam faucibus mauris id tempor
+                            egestas. Duis luctus turpis at accumsan tincidunt.
+                            Phasellus risus risus, volutpat vel tellus ac,
+                            tincidunt fringilla massa. Etiam hendrerit dolor
+                            eget rutrum.
+                          </p>
+                          <p class="overview">
+                            <b>Focus: </b> <span>Weight Loss</span>
+                          </p>
+                          <p class="overview">
+                            <span>Results: </span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Cupiditate vel vitae aliquam exercitationem
+                            harum laudantium, corporis nostrum. Vero rerum magni
+                            aliquid, quisquam quod quae placeat. Voluptatum
+                            ipsum quae qui animi!
+                          </p>
+                        </div></a
+                      >
+                    </div>
+                    <div class="col-md-6 col-lg-4 slider-col testimonial-col">
+                      <a href="testimonials.html"
+                        ><div class="testimonial-wrapper shadow">
+                          <div class="testimonial-quote-icon">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                          </div>
+                          <div class="img-box person2"></div>
+                          <p class="testimonial">
+                            5 CATEGORY A suscipit justo. Mauris pharetra feugiat
+                            ante id lacinia. Etiam faucibus mauris id tempor
+                            egestas. Duis luctus turpis at accumsan tincidunt.
+                            Phasellus risus risus, volutpat vel tellus ac,
+                            tincidunt fringilla massa. Etiam hendrerit dolor
+                            eget rutrum.
+                          </p>
+                          <p class="overview">
+                            <b>Focus: </b> <span>Weight Loss</span>
+                          </p>
+                          <p class="overview">
+                            <span>Results: </span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Cupiditate vel vitae aliquam exercitationem
+                            harum laudantium, corporis nostrum. Vero rerum magni
+                            aliquid, quisquam quod quae placeat. Voluptatum
+                            ipsum quae qui animi!
+                          </p>
+                        </div></a
+                      >
+                    </div>
+                    <div class="col-md-6 col-lg-4 slider-col testimonial-col">
+                      <a href="testimonials.html"
+                        ><div class="testimonial-wrapper shadow">
+                          <div class="testimonial-quote-icon">
+                            <i class="fa fa-quote-left" aria-hidden="true"></i>
+                          </div>
+                          <div class="img-box person3"></div>
+                          <p class="testimonial">
+                            6 CATEGORY A suscipit justo. Mauris pharetra feugiat
+                            ante id lacinia. Etiam faucibus mauris id tempor
+                            egestas. Duis luctus turpis at accumsan tincidunt.
+                            Phasellus risus risus, volutpat vel tellus ac,
+                            tincidunt fringilla massa. Etiam hendrerit dolor
+                            eget rutrum.
+                          </p>
+                          <p class="overview">
+                            <b>Focus: </b> <span>Weight Loss</span>
+                          </p>
+                          <p class="overview">
+                            <span>Results: </span>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Cupiditate vel vitae aliquam exercitationem
+                            harum laudantium, corporis nostrum. Vero rerum magni
+                            aliquid, quisquam quod quae placeat. Voluptatum
+                            ipsum quae qui animi!
+                          </p>
+                        </div></a
+                      >
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="carousel-item">
-                <div class="row">
-                  <div class="col-md-6 col-lg-4 slider-col testimonial-col">
-                    <a href="testimonials.html"
-                      ><div class="testimonial-wrapper shadow">
-                        <div class="testimonial-quote-icon">
-                          <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        </div>
-                        <div class="img-box person1"></div>
-                        <p class="testimonial">
-                          4 CATEGORY A suscipit justo. Mauris pharetra feugiat
-                          ante id lacinia. Etiam faucibus mauris id tempor
-                          egestas. Duis luctus turpis at accumsan tincidunt.
-                          Phasellus risus risus, volutpat vel tellus ac,
-                          tincidunt fringilla massa. Etiam hendrerit dolor eget
-                          rutrum.
-                        </p>
-                        <p class="overview">
-                          <b>Focus: </b> <span>Weight Loss</span>
-                        </p>
-                        <p class="overview">
-                          <span>Results: </span>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cupiditate vel vitae aliquam exercitationem
-                          harum laudantium, corporis nostrum. Vero rerum magni
-                          aliquid, quisquam quod quae placeat. Voluptatum ipsum
-                          quae qui animi!
-                        </p>
-                      </div></a
-                    >
-                  </div>
-                  <div class="col-md-6 col-lg-4 slider-col testimonial-col">
-                    <a href="testimonials.html"
-                      ><div class="testimonial-wrapper shadow">
-                        <div class="testimonial-quote-icon">
-                          <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        </div>
-                        <div class="img-box person2"></div>
-                        <p class="testimonial">
-                          5 CATEGORY A suscipit justo. Mauris pharetra feugiat
-                          ante id lacinia. Etiam faucibus mauris id tempor
-                          egestas. Duis luctus turpis at accumsan tincidunt.
-                          Phasellus risus risus, volutpat vel tellus ac,
-                          tincidunt fringilla massa. Etiam hendrerit dolor eget
-                          rutrum.
-                        </p>
-                        <p class="overview">
-                          <b>Focus: </b> <span>Weight Loss</span>
-                        </p>
-                        <p class="overview">
-                          <span>Results: </span>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cupiditate vel vitae aliquam exercitationem
-                          harum laudantium, corporis nostrum. Vero rerum magni
-                          aliquid, quisquam quod quae placeat. Voluptatum ipsum
-                          quae qui animi!
-                        </p>
-                      </div></a
-                    >
-                  </div>
-                  <div class="col-md-6 col-lg-4 slider-col testimonial-col">
-                    <a href="testimonials.html"
-                      ><div class="testimonial-wrapper shadow">
-                        <div class="testimonial-quote-icon">
-                          <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        </div>
-                        <div class="img-box person3"></div>
-                        <p class="testimonial">
-                          6 CATEGORY A suscipit justo. Mauris pharetra feugiat
-                          ante id lacinia. Etiam faucibus mauris id tempor
-                          egestas. Duis luctus turpis at accumsan tincidunt.
-                          Phasellus risus risus, volutpat vel tellus ac,
-                          tincidunt fringilla massa. Etiam hendrerit dolor eget
-                          rutrum.
-                        </p>
-                        <p class="overview">
-                          <b>Focus: </b> <span>Weight Loss</span>
-                        </p>
-                        <p class="overview">
-                          <span>Results: </span>
-                          Lorem ipsum dolor sit amet consectetur adipisicing
-                          elit. Cupiditate vel vitae aliquam exercitationem
-                          harum laudantium, corporis nostrum. Vero rerum magni
-                          aliquid, quisquam quod quae placeat. Voluptatum ipsum
-                          quae qui animi!
-                        </p>
-                      </div></a
-                    >
-                  </div>
-                </div>
-              </div>
+              <!-- Carousel controls -->
+              <a
+                class="carousel-control left carousel-control-prev"
+                href="#testimonialSlider"
+                data-slide="prev"
+              >
+                <i class="fa fa-angle-left"></i>
+              </a>
+              <a
+                class="carousel-control right carousel-control-next"
+                href="#testimonialSlider"
+                data-slide="next"
+              >
+                <i class="fa fa-angle-right"></i>
+              </a>
             </div>
-            <!-- Carousel controls -->
-            <a
-              class="carousel-control left carousel-control-prev"
-              href="#testimonialSlider"
-              data-slide="prev"
-            >
-              <i class="fa fa-angle-left"></i>
-            </a>
-            <a
-              class="carousel-control right carousel-control-next"
-              href="#testimonialSlider"
-              data-slide="next"
-            >
-              <i class="fa fa-angle-right"></i>
-            </a>
           </div>
         </div>
       </div>
@@ -589,424 +583,282 @@
               <div class="item carousel-item active">
                 <div class="row">
                   <div class="col-md-6 col-lg-4 slider-col">
-                    <a href="events.html" class="">
-                      <div class="card free-color">
-                        <img
-                          class="card-img-top img-fluid"
-                          src="img/26239423_1992607114089862_1272855852660154412_n.jpg
+                    <div class="card free-color">
+                      <img
+                        class="card-img-top img-fluid"
+                        src="img/26239423_1992607114089862_1272855852660154412_n.jpg
               "
-                        />
-                        <div class="card-block">
-                          <figure class="profile">
-                            <div class="free-color-bg w-100 h-100"></div>
-                          </figure>
+                      />
+                      <div class="card-block">
+                        <figure class="profile">
+                          <div class="free-color-bg w-100 h-100"></div>
+                        </figure>
 
-                          <h4 class="card-title mt-3">
-                            Healing Kennismakingsavond
-                          </h4>
-                          <div class="meta">
-                            <span>Date: 12 maart <br />Price: Gratis</span>
-                          </div>
-                          <div class="card-text">
-                            Met een kleine groep ontvang je een groepshealing
-                            van Helderziende Heler Rianne Collignon via haar
-                            True Unity werkwijze. <br /><br />
-                          </div>
+                        <h4 class="card-title mt-3">
+                          Healing Kennismakingsavond
+                        </h4>
+                        <div class="meta">
+                          <span>Date: 12 maart <br />Price: Gratis</span>
                         </div>
-                        <div class="card-footer">
-                          <small
-                            >Location: Praktijk Flow of Miracles <br />
-                            Language: Nederlands <br />
-                            Time: 20.00-23.00 <br />
-                          </small>
-                          <div class="my-4">
-                            <button
-                              name=""
-                              id=""
-                              class="shadow btn btn-light btn-sm"
-                              href="#"
-                              data-toggle="collapse"
-                              data-target="#event1"
-                            >
-                              More
-                            </button>
-                          </div>
-                          <p class="collapse card-text" id="event1">
-                            De avond bestaat uit: <br />
-                            * uitleg over de werkwijze <br />
-                            * uitleg over tweetallen <br />
-                            * een kleine oefening als tweetal<br />
-                            * korte pauze<br />
-                            * uitleg over het thema wat we gaan behandelen<br />
-                            * groepshealing<br />
-                            * mogelijkheid om vragen te stellen en na te praten
-                            (tussen 22.00-23.00)
-                          </p>
+                        <div class="card-text">
+                          Met een kleine groep ontvang je een groepshealing van
+                          Helderziende Heler Rianne Collignon via haar True
+                          Unity werkwijze. <br /><br />
                         </div>
                       </div>
-                    </a>
+                      <div class="card-footer">
+                        <small
+                          >Location: Praktijk Flow of Miracles <br />
+                          Language: Nederlands <br />
+                          Time: 20.00-23.00 <br />
+                        </small>
+                        <div class="my-4">
+                          <button
+                            name=""
+                            id=""
+                            class="shadow btn btn-light btn-sm"
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#event1"
+                          >
+                            More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-md-6 col-lg-4 slider-col">
-                    <a href="#">
-                      <div class="card workshop-color">
-                        <img
-                          class="card-img-top img-fluid"
-                          src="img/41475943_2320586274625276_650292717590413312_o.jpg
+                    <div class="card workshop-color">
+                      <img
+                        class="card-img-top img-fluid"
+                        src="img/41475943_2320586274625276_650292717590413312_o.jpg
               "
-                        />
-                        <div class="card-block">
-                          <figure class="profile">
-                            <div class="workshop-color-bg w-100 h-100"></div>
-                          </figure>
-                          <h4 class="card-title mt-3">
-                            Healing Avond Acceptatie
-                          </h4>
-                          <div class="meta">
-                            <span>Date: 12 februari <br />Price: €125 </span>
-                          </div>
-                          <div class="card-text">
-                            Samen integreren we de energie van acceptatie op
-                            verschillende niveau's in onszelf en in de groep om
-                            uiteindelijk een nieuw gezonder, liefdevoller en
-                            completer niveau te bereiken.
-                          </div>
+                      />
+                      <div class="card-block">
+                        <figure class="profile">
+                          <div class="workshop-color-bg w-100 h-100"></div>
+                        </figure>
+                        <h4 class="card-title mt-3">
+                          Healing Avond Acceptatie
+                        </h4>
+                        <div class="meta">
+                          <span>Date: 12 februari <br />Price: €125 </span>
                         </div>
-                        <div class="card-footer">
-                          <small
-                            >Location: Praktijk Flow of Miracles <br />
-                            Language: Nederlands <br />
-                            Time: 20.00-23.00 <br />
-                          </small>
-                          <div class="my-4">
-                            <button
-                              name=""
-                              id=""
-                              class="shadow btn btn-light btn-sm"
-                              href="#"
-                              role="button"
-                              data-toggle="collapse"
-                              data-target="#event2"
-                            >
-                              More
-                            </button>
-                          </div>
-                          <p class="collapse card-text" id="event2">
-                            Acceptatie is echt een wondermiddel. Het is de
-                            eerste stap in een helend proces en de manier om
-                            begripvol te zijn naar jezelf en de ander. Toch is
-                            het verre van makkelijk om met deze energie te
-                            werken. Zonder dat we het willen, vallen we terug in
-                            frustratie en (ver)oordelen. <br />
-                            Tijdens de healing avond krijg je uitleg over het
-                            thema, doen we een oefening als tweetal en zullen we
-                            via Rianne Collignon's helende techniek aan de slag
-                            gaan met de hele groep. Iemand wordt uitgekozen als
-                            focus persoon, die de energie van de hele groep
-                            vertegenwoordigd. Naast de focus persoon, is het ook
-                            mogelijk om uitgekozen te worden om een bepaalde
-                            energie te vertegenwoordigen, te komen helpen of om
-                            aan te sluiten bij de focus persoon
-                          </p>
+                        <div class="card-text">
+                          Samen integreren we de energie van acceptatie op
+                          verschillende niveau's in onszelf en in de groep om
+                          uiteindelijk een nieuw gezonder, liefdevoller en
+                          completer niveau te bereiken.
                         </div>
                       </div>
-                    </a>
+                      <div class="card-footer">
+                        <small
+                          >Location: Praktijk Flow of Miracles <br />
+                          Language: Nederlands <br />
+                          Time: 20.00-23.00 <br />
+                        </small>
+                        <div class="my-4">
+                          <button
+                            name=""
+                            id=""
+                            class="shadow btn btn-light btn-sm"
+                            href="#"
+                            role="button"
+                            data-toggle="modal"
+                            data-target="#event2"
+                          >
+                            More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-md-6 col-lg-4 slider-col">
-                    <a href="#">
-                      <div class="card seminar-color">
-                        <img
-                          class="card-img-top img-fluid"
-                          src="img/87996928_3345255455491681_8762299025522163712_o.jpg
+                    <div class="card seminar-color">
+                      <img
+                        class="card-img-top img-fluid"
+                        src="img/87996928_3345255455491681_8762299025522163712_o.jpg
             "
-                        />
-                        <div class="card-block">
-                          <figure class="profile">
-                            <div class="seminar-color-bg w-100 h-100"></div>
-                          </figure>
-                          <h4 class="card-title mt-3">
-                            Weekend Seminar Liefde
-                          </h4>
-                          <div class="meta">
-                            <span>Date: 21-23 februari <br />Price: €435 </span>
-                          </div>
-                          <div class="card-text">
-                            Een heel weekend lang gaan we aan de slag om te
-                            ontdekken waar we meer liefde kunnen gebruiken,
-                            elkaar helpen oude wonden te helen en gaan we het
-                            wonder van liefde ontvangen.
-                          </div>
+                      />
+                      <div class="card-block">
+                        <figure class="profile">
+                          <div class="seminar-color-bg w-100 h-100"></div>
+                        </figure>
+                        <h4 class="card-title mt-3">
+                          Weekend Seminar Liefde
+                        </h4>
+                        <div class="meta">
+                          <span>Date: 21-23 februari <br />Price: €435 </span>
                         </div>
-                        <div class="card-footer">
-                          <small
-                            >Location: Praktijk Flow of Miracles <br />
-                            Language: Nederlands <br />
-                            Time: vr 20.00-23.00, za/zo 10.00-17.00 <br />
-                          </small>
-                          <div class="my-4">
-                            <button
-                              name=""
-                              id=""
-                              class="shadow btn btn-light btn-sm"
-                              href="#"
-                              role="button"
-                              data-toggle="collapse"
-                              data-target="#event3"
-                            >
-                              More
-                            </button>
-                          </div>
-                          <p class="collapse card-text" id="event3">
-                            Liefde, we willen het allemaal. Er is niemand die
-                            nee zegt tegen meer liefde. Toch kan het lastig zijn
-                            om liefde te ontvangen. We worstelen misschien met
-                            schuldgevoelens, onze eigenwaarde of met de manier
-                            waarop iemand ons liefde wil geven.
-                            <br />
-                            Iedereen neemt daarnaast ook bagage mee van
-                            ex-partners, maar ook van onze familie of ons
-                            verleden. Tijd om deze bagage te gaan loslaten op
-                            een makkelijke en liefdevolle manier. Wanneer we een
-                            ander vertellen dat ze beter verdienen, dan
-                            realiseren we het ook voor onszelf. <br />
-                            Doelen <br />
-                            Eigenliefde <br />
-                            <br />
-                            • Met meer mildheid naar jezelf kijken <br />
-                            • Beter voor jezelf zorgen <br />
-                            • Opkomen voor jezelf <br />
-                            • Loslaten schuld/schaamte <br />
-                            Liefde naar anderen <br />
-                            • Loslaten ex-partners <br />
-                            • Vergeven van teleurstellingen/verraad <br />
-                            • Makkelijker omgaan met familieleden <br />
-                            • Liefdevoller omgaan met partner <br />
-                            • De juiste mensen aantrekken (mogelijke
-                            partner/vrienden) <br />
-                            Praktische informatie <br />
-                            Eten/drinken: Er wordt gezorgd voor lichte snacks
-                            (nootjes, fruit), water, thee en <br />
-                            koffie. Lunch kun je zelf meenemen of beneden bij
-                            Huszar gebruiken. <br />
-                            Nazorg: Na afloop van het seminar ontvang je een
-                            elektronisch feedback formulier en <br />
-                            na 3-6 weken wordt er nog persoonlijk contact met je
-                            opgenomen.
-                          </p>
+                        <div class="card-text">
+                          Een heel weekend lang gaan we aan de slag om te
+                          ontdekken waar we meer liefde kunnen gebruiken, elkaar
+                          helpen oude wonden te helen en gaan we het wonder van
+                          liefde ontvangen.
                         </div>
                       </div>
-                    </a>
+                      <div class="card-footer">
+                        <small
+                          >Location: Praktijk Flow of Miracles <br />
+                          Language: Nederlands <br />
+                          Time: vr 20.00-23.00, za/zo 10.00-17.00 <br />
+                        </small>
+                        <div class="my-4">
+                          <button
+                            name=""
+                            id=""
+                            class="shadow btn btn-light btn-sm"
+                            href="#"
+                            role="button"
+                            data-toggle="modal"
+                            data-target="#event3"
+                          >
+                            More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="item carousel-item">
                 <div class="row">
                   <div class="col-md-6 col-lg-4 slider-col">
-                    <a href="events.html" class="">
-                      <div class="card free-color">
-                        <img
-                          class="card-img-top img-fluid"
-                          src="img/26239423_1992607114089862_1272855852660154412_n.jpg
+                    <div class="card free-color">
+                      <img
+                        class="card-img-top img-fluid"
+                        src="img/26239423_1992607114089862_1272855852660154412_n.jpg
               "
-                        />
-                        <div class="card-block">
-                          <figure class="profile">
-                            <div class="free-color-bg w-100 h-100"></div>
-                          </figure>
+                      />
+                      <div class="card-block">
+                        <figure class="profile">
+                          <div class="free-color-bg w-100 h-100"></div>
+                        </figure>
 
-                          <h4 class="card-title mt-3">
-                            Healing Kennismakingsavond
-                          </h4>
-                          <div class="meta">
-                            <span>Date: 12 maart <br />Price: Gratis</span>
-                          </div>
-                          <div class="card-text">
-                            Met een kleine groep ontvang je een groepshealing
-                            van Helderziende Heler Rianne Collignon via haar
-                            True Unity werkwijze. <br /><br />
-                          </div>
+                        <h4 class="card-title mt-3">
+                          Healing Kennismakingsavond
+                        </h4>
+                        <div class="meta">
+                          <span>Date: 12 maart <br />Price: Gratis</span>
                         </div>
-                        <div class="card-footer">
-                          <small
-                            >Location: Praktijk Flow of Miracles <br />
-                            Language: Nederlands <br />
-                            Time: 20.00-23.00 <br />
-                          </small>
-                          <div class="my-4">
-                            <button
-                              name=""
-                              id=""
-                              class="shadow btn btn-light btn-sm"
-                              href="#"
-                              data-toggle="collapse"
-                              data-target="#event1"
-                            >
-                              More
-                            </button>
-                          </div>
-                          <p class="collapse card-text" id="event1">
-                            De avond bestaat uit: <br />
-                            * uitleg over de werkwijze <br />
-                            * uitleg over tweetallen <br />
-                            * een kleine oefening als tweetal<br />
-                            * korte pauze<br />
-                            * uitleg over het thema wat we gaan behandelen<br />
-                            * groepshealing<br />
-                            * mogelijkheid om vragen te stellen en na te praten
-                            (tussen 22.00-23.00)
-                          </p>
+                        <div class="card-text">
+                          Met een kleine groep ontvang je een groepshealing van
+                          Helderziende Heler Rianne Collignon via haar True
+                          Unity werkwijze. <br /><br />
                         </div>
                       </div>
-                    </a>
+                      <div class="card-footer">
+                        <small
+                          >Location: Praktijk Flow of Miracles <br />
+                          Language: Nederlands <br />
+                          Time: 20.00-23.00 <br />
+                        </small>
+                        <div class="my-4">
+                          <button
+                            name=""
+                            id=""
+                            class="shadow btn btn-light btn-sm"
+                            href="#"
+                            data-toggle="modal"
+                            data-target="#event1"
+                          >
+                            More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-md-6 col-lg-4 slider-col">
-                    <a href="#">
-                      <div class="card workshop-color">
-                        <img
-                          class="card-img-top img-fluid"
-                          src="img/41475943_2320586274625276_650292717590413312_o.jpg
+                    <div class="card workshop-color">
+                      <img
+                        class="card-img-top img-fluid"
+                        src="img/41475943_2320586274625276_650292717590413312_o.jpg
               "
-                        />
-                        <div class="card-block">
-                          <figure class="profile">
-                            <div class="workshop-color-bg w-100 h-100"></div>
-                          </figure>
-                          <h4 class="card-title mt-3">
-                            Healing Avond Acceptatie
-                          </h4>
-                          <div class="meta">
-                            <span>Date: 12 februari <br />Price: €125 </span>
-                          </div>
-                          <div class="card-text">
-                            Samen integreren we de energie van acceptatie op
-                            verschillende niveau's in onszelf en in de groep om
-                            uiteindelijk een nieuw gezonder, liefdevoller en
-                            completer niveau te bereiken.
-                          </div>
+                      />
+                      <div class="card-block">
+                        <figure class="profile">
+                          <div class="workshop-color-bg w-100 h-100"></div>
+                        </figure>
+                        <h4 class="card-title mt-3">
+                          Healing Avond Acceptatie
+                        </h4>
+                        <div class="meta">
+                          <span>Date: 12 februari <br />Price: €125 </span>
                         </div>
-                        <div class="card-footer">
-                          <small
-                            >Location: Praktijk Flow of Miracles <br />
-                            Language: Nederlands <br />
-                            Time: 20.00-23.00 <br />
-                          </small>
-                          <div class="my-4">
-                            <button
-                              name=""
-                              id=""
-                              class="shadow btn btn-light btn-sm"
-                              href="#"
-                              role="button"
-                              data-toggle="collapse"
-                              data-target="#event2"
-                            >
-                              More
-                            </button>
-                          </div>
-                          <p class="collapse card-text" id="event2">
-                            Acceptatie is echt een wondermiddel. Het is de
-                            eerste stap in een helend proces en de manier om
-                            begripvol te zijn naar jezelf en de ander. Toch is
-                            het verre van makkelijk om met deze energie te
-                            werken. Zonder dat we het willen, vallen we terug in
-                            frustratie en (ver)oordelen. <br />
-                            Tijdens de healing avond krijg je uitleg over het
-                            thema, doen we een oefening als tweetal en zullen we
-                            via Rianne Collignon's helende techniek aan de slag
-                            gaan met de hele groep. Iemand wordt uitgekozen als
-                            focus persoon, die de energie van de hele groep
-                            vertegenwoordigd. Naast de focus persoon, is het ook
-                            mogelijk om uitgekozen te worden om een bepaalde
-                            energie te vertegenwoordigen, te komen helpen of om
-                            aan te sluiten bij de focus persoon
-                          </p>
+                        <div class="card-text">
+                          Samen integreren we de energie van acceptatie op
+                          verschillende niveau's in onszelf en in de groep om
+                          uiteindelijk een nieuw gezonder, liefdevoller en
+                          completer niveau te bereiken.
                         </div>
                       </div>
-                    </a>
+                      <div class="card-footer">
+                        <small
+                          >Location: Praktijk Flow of Miracles <br />
+                          Language: Nederlands <br />
+                          Time: 20.00-23.00 <br />
+                        </small>
+                        <div class="my-4">
+                          <button
+                            name=""
+                            id=""
+                            class="shadow btn btn-light btn-sm"
+                            href="#"
+                            role="button"
+                            data-toggle="modal"
+                            data-target="#event2"
+                          >
+                            More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                   <div class="col-md-6 col-lg-4 slider-col">
-                    <a href="#">
-                      <div class="card seminar-color">
-                        <img
-                          class="card-img-top img-fluid"
-                          src="img/87996928_3345255455491681_8762299025522163712_o.jpg
+                    <div class="card seminar-color">
+                      <img
+                        class="card-img-top img-fluid"
+                        src="img/87996928_3345255455491681_8762299025522163712_o.jpg
             "
-                        />
-                        <div class="card-block">
-                          <figure class="profile">
-                            <div class="seminar-color-bg w-100 h-100"></div>
-                          </figure>
-                          <h4 class="card-title mt-3">
-                            Weekend Seminar Liefde
-                          </h4>
-                          <div class="meta">
-                            <span>Date: 21-23 februari <br />Price: €435 </span>
-                          </div>
-                          <div class="card-text">
-                            Een heel weekend lang gaan we aan de slag om te
-                            ontdekken waar we meer liefde kunnen gebruiken,
-                            elkaar helpen oude wonden te helen en gaan we het
-                            wonder van liefde ontvangen.
-                          </div>
+                      />
+                      <div class="card-block">
+                        <figure class="profile">
+                          <div class="seminar-color-bg w-100 h-100"></div>
+                        </figure>
+                        <h4 class="card-title mt-3">
+                          Weekend Seminar Liefde
+                        </h4>
+                        <div class="meta">
+                          <span>Date: 21-23 februari <br />Price: €435 </span>
                         </div>
-                        <div class="card-footer">
-                          <small
-                            >Location: Praktijk Flow of Miracles <br />
-                            Language: Nederlands <br />
-                            Time: vr 20.00-23.00, za/zo 10.00-17.00 <br />
-                          </small>
-                          <div class="my-4">
-                            <button
-                              name=""
-                              id=""
-                              class="shadow btn btn-light btn-sm"
-                              href="#"
-                              role="button"
-                              data-toggle="collapse"
-                              data-target="#event3"
-                            >
-                              More
-                            </button>
-                          </div>
-                          <p class="collapse card-text" id="event3">
-                            Liefde, we willen het allemaal. Er is niemand die
-                            nee zegt tegen meer liefde. Toch kan het lastig zijn
-                            om liefde te ontvangen. We worstelen misschien met
-                            schuldgevoelens, onze eigenwaarde of met de manier
-                            waarop iemand ons liefde wil geven.
-                            <br />
-                            Iedereen neemt daarnaast ook bagage mee van
-                            ex-partners, maar ook van onze familie of ons
-                            verleden. Tijd om deze bagage te gaan loslaten op
-                            een makkelijke en liefdevolle manier. Wanneer we een
-                            ander vertellen dat ze beter verdienen, dan
-                            realiseren we het ook voor onszelf. <br />
-                            Doelen <br />
-                            Eigenliefde <br />
-                            <br />
-                            • Met meer mildheid naar jezelf kijken <br />
-                            • Beter voor jezelf zorgen <br />
-                            • Opkomen voor jezelf <br />
-                            • Loslaten schuld/schaamte <br />
-                            Liefde naar anderen <br />
-                            • Loslaten ex-partners <br />
-                            • Vergeven van teleurstellingen/verraad <br />
-                            • Makkelijker omgaan met familieleden <br />
-                            • Liefdevoller omgaan met partner <br />
-                            • De juiste mensen aantrekken (mogelijke
-                            partner/vrienden) <br />
-                            Praktische informatie <br />
-                            Eten/drinken: Er wordt gezorgd voor lichte snacks
-                            (nootjes, fruit), water, thee en <br />
-                            koffie. Lunch kun je zelf meenemen of beneden bij
-                            Huszar gebruiken. <br />
-                            Nazorg: Na afloop van het seminar ontvang je een
-                            elektronisch feedback formulier en <br />
-                            na 3-6 weken wordt er nog persoonlijk contact met je
-                            opgenomen.
-                          </p>
+                        <div class="card-text">
+                          Een heel weekend lang gaan we aan de slag om te
+                          ontdekken waar we meer liefde kunnen gebruiken, elkaar
+                          helpen oude wonden te helen en gaan we het wonder van
+                          liefde ontvangen.
                         </div>
                       </div>
-                    </a>
+                      <div class="card-footer">
+                        <small
+                          >Location: Praktijk Flow of Miracles <br />
+                          Language: Nederlands <br />
+                          Time: vr 20.00-23.00, za/zo 10.00-17.00 <br />
+                        </small>
+                        <div class="my-4">
+                          <button
+                            name=""
+                            id=""
+                            class="shadow btn btn-light btn-sm"
+                            href="#"
+                            role="button"
+                            data-toggle="modal"
+                            data-target="#event3"
+                          >
+                            More
+                          </button>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -1062,7 +914,166 @@
         </svg>
       </div>
     </section>
-
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="event1"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Healing Kennismakingsavond
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              De avond bestaat uit: <br />
+              * uitleg over de werkwijze <br />
+              * uitleg over tweetallen <br />
+              * een kleine oefening als tweetal<br />
+              * korte pauze<br />
+              * uitleg over het thema wat we gaan behandelen<br />
+              * groepshealing<br />
+              * mogelijkheid om vragen te stellen en na te praten (tussen
+              22.00-23.00)
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="event2"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Healing Avond Acceptatie
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Acceptatie is echt een wondermiddel. Het is de eerste stap in een
+              helend proces en de manier om begripvol te zijn naar jezelf en de
+              ander. Toch is het verre van makkelijk om met deze energie te
+              werken. Zonder dat we het willen, vallen we terug in frustratie en
+              (ver)oordelen. <br />
+              Tijdens de healing avond krijg je uitleg over het thema, doen we
+              een oefening als tweetal en zullen we via Rianne Collignon's
+              helende techniek aan de slag gaan met de hele groep. Iemand wordt
+              uitgekozen als focus persoon, die de energie van de hele groep
+              vertegenwoordigd. Naast de focus persoon, is het ook mogelijk om
+              uitgekozen te worden om een bepaalde energie te vertegenwoordigen,
+              te komen helpen of om aan te sluiten bij de focus persoon
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="event3"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">
+              Weekend Seminar Liefde
+            </h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              Liefde, we willen het allemaal. Er is niemand die nee zegt tegen
+              meer liefde. Toch kan het lastig zijn om liefde te ontvangen. We
+              worstelen misschien met schuldgevoelens, onze eigenwaarde of met
+              de manier waarop iemand ons liefde wil geven.
+              <br />
+              Iedereen neemt daarnaast ook bagage mee van ex-partners, maar ook
+              van onze familie of ons verleden. Tijd om deze bagage te gaan
+              loslaten op een makkelijke en liefdevolle manier. Wanneer we een
+              ander vertellen dat ze beter verdienen, dan realiseren we het ook
+              voor onszelf. <br />
+              Doelen <br />
+              Eigenliefde <br />
+              <br />
+              • Met meer mildheid naar jezelf kijken <br />
+              • Beter voor jezelf zorgen <br />
+              • Opkomen voor jezelf <br />
+              • Loslaten schuld/schaamte <br />
+              Liefde naar anderen <br />
+              • Loslaten ex-partners <br />
+              • Vergeven van teleurstellingen/verraad <br />
+              • Makkelijker omgaan met familieleden <br />
+              • Liefdevoller omgaan met partner <br />
+              • De juiste mensen aantrekken (mogelijke partner/vrienden) <br />
+              Praktische informatie <br />
+              Eten/drinken: Er wordt gezorgd voor lichte snacks (nootjes,
+              fruit), water, thee en <br />
+              koffie. Lunch kun je zelf meenemen of beneden bij Huszar
+              gebruiken. <br />
+              Nazorg: Na afloop van het seminar ontvang je een elektronisch
+              feedback formulier en <br />
+              na 3-6 weken wordt er nog persoonlijk contact met je opgenomen.
+            </p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" data-dismiss="modal">
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- START OF FOOTER -->
     <footer>
       <div class="width-80">
@@ -1192,7 +1203,17 @@
       </div>
     </footer>
     <!-- END OF FOOTER -->
+    <div class="language-switcher shadow-sm">
+      <div class="d-flex">
+        <div class="english">
+          <img src="img/flagUK.gif" alt="" class="img-fluid" />
+        </div>
+        <div class="dutch">
+          <img src="img/flagNL.gif" alt="" class="img-fluid" />
 
+        </div>
+      </div>
+    </div>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.js"
@@ -1213,6 +1234,12 @@
     <script src="js/script.js"></script>
     <script>
       $(document).ready(function () {
+        $("#events-carousel .card").click(function (e) {
+          var elementType = $(e.target).prop("nodeName");
+          if (!(elementType == "BUTTON")) {
+            window.location = "/events.html";
+          }
+        });
         updateSlider("#testimonialSlider");
         updateSlider("#events-carousel");
 
